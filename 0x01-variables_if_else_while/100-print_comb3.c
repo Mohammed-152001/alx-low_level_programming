@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - prints all possible different combinations of two digits
@@ -7,7 +9,7 @@
 int main(void)
 {
 	int n, m;
-
+	
 	for (n = 48; n <= 56; n++)
 	{
 		for (m = 49; m <= 57; m++)
